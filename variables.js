@@ -24,3 +24,9 @@ console.log(varData);
 var varData = "ok";
 // let letData = "not ok";
 
+const testArr = [1, 3, 4];
+var i;
+for (i = 0; i < testArr.length; i++) {
+  // var will print undefined
+  setTimeout(() => console.log(testArr[i]), 100);
+}
