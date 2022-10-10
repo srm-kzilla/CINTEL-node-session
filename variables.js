@@ -1,7 +1,7 @@
 const constData = "hey";
 
 //cannot be changed, will throw an error
-// data = "hi";
+// constData = "hi";
 console.log(constData);
 
 let letData = "hi";
@@ -24,3 +24,17 @@ console.log(varData);
 var varData = "ok";
 // let letData = "not ok";
 
+
+// As compared to C++ code;
+/**
+ * C++ CODE
+ * #include<iostream>
+ * using namespace std;
+ * int main(){
+ * int a = 10;
+ * char b = 'a';
+ * cout<<a<<endl;           // OUTPUT: 10  [type: int]
+ * cout<<b<<endl;           // OUTPUT: a  [type: char]
+ * return 0;
+ * }
+ */
